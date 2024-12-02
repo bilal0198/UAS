@@ -115,7 +115,7 @@ Time Received : 5.066650
 RTT= Receive time  -    Sent time
 RTT=5.066650         -   5.066388
 RTT=0.000262
-
+![](https://github.com/bilal0198/UAS/blob/87918b989206fb86856fa4803d1562e3799babf6/README/Picture10.png)
 
 Q#7 Answer
 
