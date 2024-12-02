@@ -119,6 +119,10 @@ RTT= Receive time  -    Sent time
 RTT=5.066650         -   5.066388
 RTT=0.000262
 ![](https://github.com/bilal0198/UAS/blob/95f79c1eafe9f0e98f9bb51a3a79ba33c6fde886/README/Picture11.png)
+
+Graph
+![](https://github.com/bilal0198/UAS/blob/bfa8173a611178213dc222d58cde728007cfc19f/README/Picture13.png)
+
 Q#7 Answer
 
 TCP segemt data 624 bytes.
