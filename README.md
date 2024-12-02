@@ -71,4 +71,5 @@ In the Packet Details pane, expand the Transmission Control Protocol   (TCP) sec
 5.	Identify the SYN Flag:
 In the TCP Flags section, check for the SYN flag. This is what marks the segment as a SYN segment.
 The SYN segment is always the first segment , and it is the packet where the SYN flag is set to 1.
+![](https://github.com/bilal0198/UAS/blob/49e6eba0819c20524fa08240a8e20497bd67aa7c/README/Picture6.png)
 
