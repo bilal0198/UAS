@@ -125,6 +125,7 @@ Graph
 
 Q#7 Answer
 
+![](https://github.com/bilal0198/UAS/blob/ad1f140989095a58fbc434c14214d2048c0fab3f/README/Picture14.png)
 TCP segemt data 624 bytes.
 Length of segments:
 
