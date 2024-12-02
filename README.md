@@ -73,5 +73,6 @@ In the TCP Flags section, check for the SYN flag. This is what marks the segment
 The SYN segment is always the first segment , and it is the packet where the SYN flag is set to 1.
 ![](https://github.com/bilal0198/UAS/blob/49e6eba0819c20524fa08240a8e20497bd67aa7c/README/Picture6.png)
 ACK value for SYN + ACK is equal to sequence number of next ACK segment as shown in below figures.
+![](https://github.com/bilal0198/UAS/blob/d68b1c400ed5978c66945c49d66d433872ad0daf/README/Picture7.png)
 
 
