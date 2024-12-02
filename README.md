@@ -77,7 +77,31 @@ ACK value for SYN + ACK is equal to sequence number of next ACK segment as shown
 
 Q#4 Answer
 
+SYN-ACK Segment from the Server:
+The next step in the three-way handshake is the SYN-ACK segment sent by gaia.cs.umass.edu in reply to the client’s SYN packet.
+In Wireshark, look for the SYN-ACK segment. This segment will have both the SYN and ACK flags set to 1.
+	Examine the SYN-ACK Segment in Wireshark:
+Click on the SYN-ACK segment in Wireshark to view its details in the Packet   Details panen see the following in the figure given below:
+i.	Sequence Number
+ii.	ACKnowledgement Number
+iii.	SYN and ACK flags: The SYN and ACK flags will be set to 1 in the segment to identify it as a SYN-ACK.
 
 ![](https://github.com/bilal0198/UAS/blob/e5e1ca07daa3d5cddf060de7c2b75b83a6db250c/README/Picture8.png)
+
+Q#5 Answer
+
+Sequence Number: This is the number in the TCP header that identifies the first byte of data in the packet (where the POST command starts).
+POST Command: The packet content will have POST in the HTTP section, indicating the HTTP POST request.
+Data Field: The body of the POST request will appear in the Packet Bytes section.
+Flags: The TCP flags will likely indicate the state of the connection (e.g., PSH for pushing data, ACK for acknowledgment).
+
+
+
+
+Q#6 Answer
+
+
+Q#7 Answer
+
 
 
