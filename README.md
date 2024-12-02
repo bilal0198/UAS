@@ -42,5 +42,9 @@ Source Port                     : 60662
 
 Q#2: Answer
 
+IP address and TCP port numbers of  gaia.cs.umass.edu.
+Destination Port         : 128.119.245.12
+Destination Port         : 80
+
 The server's domain name is gaia.cs.umass.edu. This domain name is converted into a numerical IP address by the Domain Name System (DNS), allowing computers to find and connect to the server.
 ![](https://github.com/bilal0198/UAS/blob/520259bad89a328d2836e06d6ad6ac104176f302/README/Picture4.png)
