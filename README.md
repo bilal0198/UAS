@@ -49,3 +49,26 @@ Destination Port         : 80
 The server's domain name is gaia.cs.umass.edu. This domain name is converted into a numerical IP address by the Domain Name System (DNS), allowing computers to find and connect to the server.
 ![](https://github.com/bilal0198/UAS/blob/520259bad89a328d2836e06d6ad6ac104176f302/README/Picture4.png)
 ![](https://github.com/bilal0198/UAS/blob/6f4011c447824e004c62de7f3e811a400ad4068e/README/Picture5.png)
+
+Q#3 Answer
+
+SEQUENCE NUMBER: 637617485
+      To determine the sequence number of the TCP SYN segment and identify the segment as a SYN segment in Wireshark, follow these steps:
+      Steps:
+1.	Capture the Traffic Using Wireshark:
+Open Wireshark .
+Start a capture on network interface .
+Initiate the file transfer.
+2.	Filter the Traffic:
+Once the traffic is captured, use a display filter to focus on the TCP connection. Enter tcp in the Wireshark filter bar:
+3.	Locate the SYN Packet:
+The TCP handshake starts with a SYN packet from the client to the   server. Look for the first packet with the SYN flag set.
+Identify the SYN packet by checking for SYN in the Flags field in the Wireshark details pane.
+4.	Examine the SYN Packet:
+			Click on the SYN packet in the Wireshark capture.
+In the Packet Details pane, expand the Transmission Control Protocol   (TCP) section.
+			Look for the Sequence Number field. 
+5.	Identify the SYN Flag:
+In the TCP Flags section, check for the SYN flag. This is what marks the segment as a SYN segment.
+The SYN segment is always the first segment , and it is the packet where the SYN flag is set to 1.
+
