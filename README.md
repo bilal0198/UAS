@@ -31,4 +31,5 @@ Answer the following questions for the TCP segments:
 
 
 ![](https://github.com/bilal0198/UAS/blob/290215439d31277060adc1130dae820ac64721f9/README/Picture1.png)
+![](https://github.com/bilal0198/UAS/blob/64fd6ad1a598a173a5439cf53ad977bdeaa6a603/README/Picture2.png)
 
