@@ -1,3 +1,4 @@
+# QUESTIONS
 Question below are based on the trace file tcp-ethereal-trace-1 in in http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
 
 Answer the following questions for the TCP segments:
@@ -30,7 +31,8 @@ Answer the following questions for the TCP segments:
 7. What is the length of each of the first six TCP segments?(Attach the screenshot of your Wireshark's display) (15%).
 
 # ANSWERS
-Q#1: Answer
+
+## Q#1: Answer
 
 IP address and TCP port numbers of the client computer (source).
 Source IP Address          : 192.168.110.37
@@ -40,7 +42,7 @@ Source Port                     : 60662
 ![](https://github.com/bilal0198/UAS/blob/64fd6ad1a598a173a5439cf53ad977bdeaa6a603/README/Picture2.png)
 ![](https://github.com/bilal0198/UAS/blob/d08cb4c6034cb3a7c65c6b6368e2abfc554b5c0a/README/Picture3.png)
 
-Q#2: Answer
+## Q#2: Answer
 
 IP address and TCP port numbers of  gaia.cs.umass.edu.
 Destination Port         : 128.119.245.12
@@ -50,7 +52,7 @@ The server's domain name is gaia.cs.umass.edu. This domain name is converted int
 ![](https://github.com/bilal0198/UAS/blob/520259bad89a328d2836e06d6ad6ac104176f302/README/Picture4.png)
 ![](https://github.com/bilal0198/UAS/blob/6f4011c447824e004c62de7f3e811a400ad4068e/README/Picture5.png)
 
-Q#3 Answer
+## Q#3 Answer
 
 SEQUENCE NUMBER: 637617485
       To determine the sequence number of the TCP SYN segment and identify the segment as a SYN segment in Wireshark, follow these steps:
@@ -71,29 +73,35 @@ In the Packet Details pane, expand the Transmission Control Protocol   (TCP) sec
 5.	Identify the SYN Flag:
 In the TCP Flags section, check for the SYN flag. This is what marks the segment as a SYN segment.
 The SYN segment is always the first segment , and it is the packet where the SYN flag is set to 1.
+
 ![](https://github.com/bilal0198/UAS/blob/49e6eba0819c20524fa08240a8e20497bd67aa7c/README/Picture6.png)
 ACK value for SYN + ACK is equal to sequence number of next ACK segment as shown in below figures.
+
 ![](https://github.com/bilal0198/UAS/blob/d68b1c400ed5978c66945c49d66d433872ad0daf/README/Picture7.png)
 
-Q#4 Answer
+## Q#4 Answer
 
 SYN-ACK Segment from the Server:
+
 The next step in the three-way handshake is the SYN-ACK segment sent by gaia.cs.umass.edu in reply to the client’s SYN packet.
 In Wireshark, look for the SYN-ACK segment. This segment will have both the SYN and ACK flags set to 1.
 	Examine the SYN-ACK Segment in Wireshark:
 Click on the SYN-ACK segment in Wireshark to view its details in the Packet   Details panen see the following in the figure given below:
+
 i.	Sequence Number
 ii.	ACKnowledgement Number
 iii.	SYN and ACK flags: The SYN and ACK flags will be set to 1 in the segment to identify it as a SYN-ACK.
 
 ![](https://github.com/bilal0198/UAS/blob/e5e1ca07daa3d5cddf060de7c2b75b83a6db250c/README/Picture8.png)
 
-Q#5 Answer
+## Q#5 Answer
 
 Sequence Number: This is the number in the TCP header that identifies the first byte of data in the packet (where the POST command starts).
 POST Command: The packet content will have POST in the HTTP section, indicating the HTTP POST request.
 Data Field: The body of the POST request will appear in the Packet Bytes section.
+
 Flags: The TCP flags will likely indicate the state of the connection (e.g., PSH for pushing data, ACK for acknowledgment).
+
 Sequence Number              :  2762618936 
 Acknowledgment Number :  3242196615
 
@@ -102,7 +110,7 @@ Acknowledgment Number :  3242196615
 
 
 
-Q#6 Answer
+## Q#6 Answer
 
 [17 Reassembled TCP Segments (152945 bytes): #107(624), #108(12708), #142(7060), #144(19768), #151(2824), 
 #154(11296), #156(2824), #158(5648), #160(2824), #163(28240), #167(2824), #169(1412), #172(21180), #175(2824), #178(5648), #183(20376)]
@@ -118,15 +126,21 @@ Time Received : 5.066650
 RTT= Receive time  -    Sent time
 RTT=5.066650         -   5.066388
 RTT=0.000262
+
 ![](https://github.com/bilal0198/UAS/blob/95f79c1eafe9f0e98f9bb51a3a79ba33c6fde886/README/Picture11.png)
 
 Graph
+
 ![](https://github.com/bilal0198/UAS/blob/bfa8173a611178213dc222d58cde728007cfc19f/README/Picture13.png)
 
-Q#7 Answer
+## Q#7 Answer
 
 ![](https://github.com/bilal0198/UAS/blob/ad1f140989095a58fbc434c14214d2048c0fab3f/README/Picture14.png)
+
+![](https://github.com/bilal0198/UAS/blob/17523f18e8e629823ba429ffe9545af868756e5f/README/Picture15.png)
+
 TCP segemt data 624 bytes.
+
 Length of segments:
 
 
