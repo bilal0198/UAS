@@ -94,14 +94,33 @@ Sequence Number: This is the number in the TCP header that identifies the first 
 POST Command: The packet content will have POST in the HTTP section, indicating the HTTP POST request.
 Data Field: The body of the POST request will appear in the Packet Bytes section.
 Flags: The TCP flags will likely indicate the state of the connection (e.g., PSH for pushing data, ACK for acknowledgment).
+Sequence Number              :  2762618936 
+Acknowledgment Number :  3242196615
+
+![](README/Picture9.png)
 
 
 
 
 Q#6 Answer
 
+[17 Reassembled TCP Segments (152945 bytes): #107(624), #108(12708), #142(7060), #144(19768), #151(2824), 
+#154(11296), #156(2824), #158(5648), #160(2824), #163(28240), #167(2824), #169(1412), #172(21180), #175(2824), #178(5648), #183(20376)]
+
+At what time was each segment sent?
+
+Time Sent         : 5.066388
+Time Received : 5.066650
+
+RTT= Receive time  -    Sent time
+RTT=5.066650         -   5.066388
+RTT=0.000262
+
 
 Q#7 Answer
+
+TCP segemt data 624 bytes.
+Length of segments:
 
 
 
