@@ -39,7 +39,9 @@ Source IP Address          : 192.168.110.37
 Source Port                     : 60662
 
 ![](https://github.com/bilal0198/UAS/blob/290215439d31277060adc1130dae820ac64721f9/README/Picture1.png)
+
 ![](https://github.com/bilal0198/UAS/blob/64fd6ad1a598a173a5439cf53ad977bdeaa6a603/README/Picture2.png)
+
 ![](https://github.com/bilal0198/UAS/blob/d08cb4c6034cb3a7c65c6b6368e2abfc554b5c0a/README/Picture3.png)
 
 ## Q#2: Answer
@@ -49,7 +51,9 @@ Destination Port         : 128.119.245.12
 Destination Port         : 80
 
 The server's domain name is gaia.cs.umass.edu. This domain name is converted into a numerical IP address by the Domain Name System (DNS), allowing computers to find and connect to the server.
+
 ![](https://github.com/bilal0198/UAS/blob/520259bad89a328d2836e06d6ad6ac104176f302/README/Picture4.png)
+
 ![](https://github.com/bilal0198/UAS/blob/6f4011c447824e004c62de7f3e811a400ad4068e/README/Picture5.png)
 
 ## Q#3 Answer
@@ -75,6 +79,7 @@ In the TCP Flags section, check for the SYN flag. This is what marks the segment
 The SYN segment is always the first segment , and it is the packet where the SYN flag is set to 1.
 
 ![](https://github.com/bilal0198/UAS/blob/49e6eba0819c20524fa08240a8e20497bd67aa7c/README/Picture6.png)
+
 ACK value for SYN + ACK is equal to sequence number of next ACK segment as shown in below figures.
 
 ![](https://github.com/bilal0198/UAS/blob/d68b1c400ed5978c66945c49d66d433872ad0daf/README/Picture7.png)
@@ -137,11 +142,13 @@ Graph
 
 ![](https://github.com/bilal0198/UAS/blob/ad1f140989095a58fbc434c14214d2048c0fab3f/README/Picture14.png)
 
-![](https://github.com/bilal0198/UAS/blob/17523f18e8e629823ba429ffe9545af868756e5f/README/Picture15.png)
-
 TCP segemt data 624 bytes.
 
 Length of segments:
+
+![](https://github.com/bilal0198/UAS/blob/17523f18e8e629823ba429ffe9545af868756e5f/README/Picture15.png)
+
+
 
 
 
