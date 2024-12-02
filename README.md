@@ -75,4 +75,9 @@ The SYN segment is always the first segment , and it is the packet where the SYN
 ACK value for SYN + ACK is equal to sequence number of next ACK segment as shown in below figures.
 ![](https://github.com/bilal0198/UAS/blob/d68b1c400ed5978c66945c49d66d433872ad0daf/README/Picture7.png)
 
+Q#4 Answer
+
+
+![](https://github.com/bilal0198/UAS/blob/e5e1ca07daa3d5cddf060de7c2b75b83a6db250c/README/Picture8.png)
+
 
