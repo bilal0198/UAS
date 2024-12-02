@@ -30,7 +30,7 @@ Answer the following questions for the TCP segments:
 7. What is the length of each of the first six TCP segments?(Attach the screenshot of your Wireshark's display) (15%).
 
 # ANSWERS
-* Q#1 Answer*
+Q#1 Answer
 ![](https://github.com/bilal0198/UAS/blob/290215439d31277060adc1130dae820ac64721f9/README/Picture1.png)
 ![](https://github.com/bilal0198/UAS/blob/64fd6ad1a598a173a5439cf53ad977bdeaa6a603/README/Picture2.png)
 ![](https://github.com/bilal0198/UAS/blob/d08cb4c6034cb3a7c65c6b6368e2abfc554b5c0a/README/Picture3.png)
