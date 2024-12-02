@@ -48,3 +48,4 @@ Destination Port         : 80
 
 The server's domain name is gaia.cs.umass.edu. This domain name is converted into a numerical IP address by the Domain Name System (DNS), allowing computers to find and connect to the server.
 ![](https://github.com/bilal0198/UAS/blob/520259bad89a328d2836e06d6ad6ac104176f302/README/Picture4.png)
+![](https://github.com/bilal0198/UAS/blob/6f4011c447824e004c62de7f3e811a400ad4068e/README/Picture5.png)
