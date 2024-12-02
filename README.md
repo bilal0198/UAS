@@ -107,6 +107,9 @@ Q#6 Answer
 [17 Reassembled TCP Segments (152945 bytes): #107(624), #108(12708), #142(7060), #144(19768), #151(2824), 
 #154(11296), #156(2824), #158(5648), #160(2824), #163(28240), #167(2824), #169(1412), #172(21180), #175(2824), #178(5648), #183(20376)]
 
+
+![](https://github.com/bilal0198/UAS/blob/87918b989206fb86856fa4803d1562e3799babf6/README/Picture10.png)
+
 At what time was each segment sent?
 
 Time Sent         : 5.066388
@@ -115,8 +118,7 @@ Time Received : 5.066650
 RTT= Receive time  -    Sent time
 RTT=5.066650         -   5.066388
 RTT=0.000262
-![](https://github.com/bilal0198/UAS/blob/87918b989206fb86856fa4803d1562e3799babf6/README/Picture10.png)
-
+![](https://github.com/bilal0198/UAS/blob/95f79c1eafe9f0e98f9bb51a3a79ba33c6fde886/README/Picture11.png)
 Q#7 Answer
 
 TCP segemt data 624 bytes.
