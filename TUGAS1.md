@@ -90,6 +90,9 @@ bash
 Send messages from the client.
 Observe the messages received by the server.
 
+# SCREENSHOT OF CLIENT SERVER MESSAGES
+![](https://github.com/bilal0198/UAS/blob/d4cf178e6b08a500570ee63291d9a89e750f2ede/README/SOCKET%20PROGRAMMING.png)
+
 
 
 
