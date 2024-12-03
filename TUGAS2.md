@@ -102,6 +102,9 @@ ACK: The client confirms with an ACK packet.
 FIN + ACK: The client sends a FIN packet to indicate it also wants to terminate the connection.
 ACK: The server responds with an ACK to confirm termination.
 
+# GRAPH
+![](https://github.com/bilal0198/UAS/blob/598e966e624b8dfacd3de28877fbc26be10671c5/README/Three-Way%20Handshake%20GRAPH.png)
+
 
 
 
