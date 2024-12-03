@@ -86,7 +86,7 @@ Create a filedocker-compose.yml
       - ./nginx-config:/etc/nginx/conf.d
       - ./ssl:/etc/nginx/certs
       - ./index.html:/var/www/index.html
-![http2.png](http2.png)
+![](https://github.com/bilal0198/UAS/blob/7cb330c1383ad7f9c5dd0d5075a15586f50bbe89/README/http2.png)
 ### Save
 # Test
 ## Enter the directory{root_project}/
