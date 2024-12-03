@@ -90,11 +90,15 @@ bash
 Send messages from the client.
 Observe the messages received by the server.
 
-# PICTURE 1
+# CLIENT SERVER RESPONSE
 ![](https://github.com/bilal0198/UAS/blob/d4cf178e6b08a500570ee63291d9a89e750f2ede/README/SOCKET%20PROGRAMMING.png)
 
-# PICTURE 2
+#  Packet Delivery Results on Wireshark
 ![](https://github.com/bilal0198/UAS/blob/21ab518873c6c0fee5e0fb8c8dc5e83687faaf1f/README/tugas1.png)
+
+# Flow Graph in Package Delivery
+
+
 
 
 
