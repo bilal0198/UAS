@@ -77,6 +77,8 @@ Use TCP port filter to capture the packets exchanged between the client and serv
     python3 server.py
 ### Run the client script:
     python3 client.py
+
+  ![](https://github.com/bilal0198/UAS/blob/f4b7f20f0b589d75ac251cb575f2fa6f526650a2/README/Three-Way%20Handshake.png)
   # Step 4: Analyze TCP Packets in Wireshark
 Three-Way Handshake (Steps 1-3):
 
