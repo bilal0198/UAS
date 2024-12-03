@@ -71,7 +71,7 @@
     </ol>
     </body>
     </html>
-![http1.png](http1.png)
+![](https://github.com/bilal0198/UAS/blob/8141f68be65266483ed61ee650c643abdbc6c4a5/README/http1.png)
 # Docker Compose
 Create a filedocker-compose.yml
 ## Enter the following code
