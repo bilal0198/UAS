@@ -1,14 +1,18 @@
 # Docker:
      Installation: Ensure Docker and Docker Compose are installed on your system. If not, download and install them from the official Docker website.
+     
 # OpenSSL:
      Installation: Verify that OpenSSL is installed on your system. If not, install it using your system's package manager (e.g., apt, yum, brew).
+     
 ## Project Structure:
      Create a Project Directory:
     Set up a new project folder on your local machine.
     Create an Nginx Configuration Directory:
     Within your project directory, create a folder named nginx-config.
+    
 ## Create the Nginx Configuration File:
     Inside the nginx-config folder, create a file named default.conf. This file will hold the Nginx configuration settings
+    
 # CODE
     server {
     #HTTP/1.1 listen on port 80
@@ -27,10 +31,12 @@
     root /var/www/;
     index index.html;
     }
+    
 ## Save
 # Generating SSL Certificates
     Navigate to the Project Root:
     Open your terminal or command prompt and navigate to the root directory of your project.
+    
 ## Run the command
   ## CODE
     openssl req -x509 -newkey rsa:2048 -keyout ssl/server.key -out ssl/server.crt -days 365 -nodes
@@ -71,8 +77,11 @@
     </ol>
     </body>
     </html>
+    
 ![](https://github.com/bilal0198/UAS/blob/8141f68be65266483ed61ee650c643abdbc6c4a5/README/http1.png)
+
 # Docker Compose
+
 Create a filedocker-compose.yml
 ## Enter the following code
     version: '3.8'
@@ -88,7 +97,9 @@ Create a filedocker-compose.yml
       - ./index.html:/var/www/index.html
 ![](https://github.com/bilal0198/UAS/blob/7cb330c1383ad7f9c5dd0d5075a15586f50bbe89/README/http2.png)
 ### Save
+
 # Test
+
 ## Enter the directory{root_project}/
 ### Open terminal
      Run the commanddocker-compose up
@@ -96,4 +107,5 @@ Create a filedocker-compose.yml
     Follow the instructions from the website
     Protokol HTTP/1
 ![](https://github.com/bilal0198/UAS/blob/6d499ffec7df4f7600eb8afaf27e3f2f5d933727/README/wireshark1.png)
-![](wiresharkhttp2.png)
+
+![](https://github.com/bilal0198/UAS/blob/c52dcb83b81ab122824a26604b8c47bf0aa642c2/README/wiresharkhttp2.png)
