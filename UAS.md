@@ -136,7 +136,7 @@ RTT=0.000262
 
 Graph
 
-![](https://github.com/bilal0198/UAS/blob/bfa8173a611178213dc222d58cde728007cfc19f/README/Picture13.png)
+![](https://github.com/bilal0198/UAS/blob/4d005484e0142ba2ee083a46e7ce6fdb591eccb7/README/picture16.jpeg)
 
 ## Q#7 Answer
 
