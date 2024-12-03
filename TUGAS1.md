@@ -97,6 +97,8 @@ Observe the messages received by the server.
 ![](https://github.com/bilal0198/UAS/blob/21ab518873c6c0fee5e0fb8c8dc5e83687faaf1f/README/tugas1.png)
 
 # Flow Graph in Package Delivery
+![](https://github.com/bilal0198/UAS/blob/3bbaace5084e8913a7298db929bf499e7c4bea9d/README/Flow%20Graph.png)
+
 
 
 
