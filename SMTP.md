@@ -4,6 +4,8 @@
 
 ### **How SMTP Works**
 
+![](https://github.com/bilal0198/UAS/blob/54cd670eda0cb21d2e9a17d427aba400454cac14/README/SMTP.png)
+
 1. **Client and Server Communication**:  
    SMTP works in a client-server model. The **client** (often an email program or service like Outlook, Gmail, etc.) communicates with an **SMTP server** (an email server) to send the email to a recipient's email address.
 
